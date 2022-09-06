@@ -4,7 +4,7 @@
    border-radius: 50%;
 }
 .glow {
-   box-shadow: 0 0 140px 90px #0ff ;
+   box-shadow: 0 0 140px 20px #0ff ;
 }
 .red {
     background: red;
@@ -17,8 +17,15 @@
 }
 .traffic-light {
     background: black;
-    width: 200px;
+    width: 100px;
     height: 400px;
     margin: auto;
-    padding: 10px;
+    border-radius: 5%;
+    
+}
+.topTraffic {
+    background: black;
+    width: 10px;
+    height: 100px;
+    margin: auto;
 }

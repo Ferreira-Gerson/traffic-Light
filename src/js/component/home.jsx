@@ -5,8 +5,11 @@ import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
 const Home = () => {
-	const [ Color, setColor] = useState ("yellow")
+	const [ Color, setColor] = useState ("red")
+	
 	return (
+	<div>
+		<div className="topTraffic"></div>
 		<div className="traffic-light">	
 			
 			<div onClick={() => setColor ("red")} className={"light red " +(Color === "red"? "glow" : "")}></div>
@@ -15,7 +18,12 @@ const Home = () => {
 			
 			<div onClick={() => setColor ("green")} className={"light green " +(Color === "green"? "glow" : "")}></div>
 		</div>
+		
+			
+
+	</div>
 	);
 };
+
 
 export default Home;
